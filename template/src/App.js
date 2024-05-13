@@ -22,6 +22,7 @@ function App() {
           <Route exact path='/pricing' element={<Pricing />} />
           <Route exact path='/journal' element={<Blog />} />
           <Route exact path='/contact' element={<Contact />} />
+          
         </Routes>
         <Footer />
       </Router>
